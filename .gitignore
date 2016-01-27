@@ -3,6 +3,7 @@
 .classpath
 .project
 .settings/**
+/gopig-tcplocalhost1883/
 
 
 # Mobile Tools for Java (J2ME)
