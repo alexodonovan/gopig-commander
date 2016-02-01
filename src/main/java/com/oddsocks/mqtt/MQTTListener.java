@@ -14,7 +14,7 @@ public class MQTTListener implements MqttCallback {
 
 	@Override
 	public void connectionLost(Throwable throwable) {
-		logger.info("ERROR: Lost Connection.");
+		logger.info("ERROR: Lost Connection. {}", throwable);
 	}
 
 	@Override

@@ -3,7 +3,7 @@ package com.oddsocks;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication(scanBasePackages = { "com.oddsocks.*" })
+@SpringBootApplication(scanBasePackages = { "com.oddsocks" })
 public class Application {
 
 	public static void main(String[] args) {
