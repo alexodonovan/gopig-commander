@@ -33,7 +33,8 @@ public class MqttPublisher {
 		mqttClient.disconnect();
 	}
 
-	public void publish(String topic, byte[] bytes, int qos, boolean retained) throws MqttPersistenceException, MqttException {
+	public void publish(String topic, byte[] bytes, int qos, boolean retained) throws MqttPersistenceException,
+			MqttException {
 		mqttClient.publish(topic, bytes, qos, retained);
 	}
 
