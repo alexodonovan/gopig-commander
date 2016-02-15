@@ -21,11 +21,11 @@ public class MqttPublisher {
 
 	@PostConstruct
 	public void init() throws MqttException {
-		logger.info("Connecting to MQTT server");
-		mqttClient = new MqttClient("tcp://localhost:1883", MqttClient.generateClientId());
-		MqttConnectOptions options = new MqttConnectOptions();
-		options.setKeepAliveInterval(5);
-		mqttClient.connect(options);
+//		logger.info("Connecting to MQTT server");
+//		mqttClient = new MqttClient("tcp://localhost:1883", MqttClient.generateClientId());
+//		MqttConnectOptions options = new MqttConnectOptions();
+//		options.setKeepAliveInterval(5);
+//		mqttClient.connect(options);
 	}
 
 	@PreDestroy
