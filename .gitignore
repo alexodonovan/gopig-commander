@@ -4,6 +4,7 @@
 .project
 .settings/**
 /gopig-tcplocalhost1883/
+paho*
 
 
 # Mobile Tools for Java (J2ME)
